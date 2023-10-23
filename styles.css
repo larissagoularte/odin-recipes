@@ -1,0 +1,43 @@
+img {
+    width: 600px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    
+}
+
+.image {    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+.description {
+    display: flex;
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.items {
+    text-align: left;
+    
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
