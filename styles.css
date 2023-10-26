@@ -1,31 +1,43 @@
-img {
-    width: 600px;
+@font-face {
+    font-family: 'fantasy';
+    src: url('font/fantasy.otf') format('truetype');
+  }
+  
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F4DFB6;
+    color: #9A4444;
 }
 
-h1 {
+h1{
+    font-family: 'fantasy';
+    letter-spacing: 2px;
+    font-size: 60px;
+    color:#9A4444; /*DE8F5F*/
+}
+
+h1,
+h3,
+.image,
+.return {
     display: flex;
-    justify-content: center; /* Horizontal centering */
+    justify-content: center; 
+}
+
+h1,
+.image {
     align-items: center;
 }
 
-h3 {
-    display: flex;
-    justify-content: center; /* Horizontal centering */
-    
-}
-
-.image {    
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    
-}
 
 
 .description {
     display: flex;
     width: 700px;
-    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,8 +48,56 @@ h3 {
     
 }
 
-.return{
-    display: flex;
-    justify-content: center;
+.return,
+.description,
+h1 {
     text-align: center;
+}
+
+
+.recipes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    
+}
+
+.imgIndex {
+    width: 200px; 
+    height: auto; 
+}
+
+.name a {
+    text-decoration: none;
+    color: #9A4444 ;
+    transition: color 0.3s;
+}
+
+.name a:hover{
+    color: #DE8F5F;
+}
+
+.name {
+    padding-top: 5px;
+}
+
+.spaguettiImage{
+    width: 400px;
+}
+
+.spaguettiBody h1{
+    font-size: 40px;
+}
+
+.spaguettiBody{
+    color: #9A4444;
 }
